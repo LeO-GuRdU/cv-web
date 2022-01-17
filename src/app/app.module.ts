@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
-import { alarm, alarmFill, alignBottom } from 'ngx-bootstrap-icons';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,13 +10,8 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 
-
-const icons = {
-  alarm,
-  alarmFill,
-  alignBottom
-};
 
 @NgModule({
   declarations: [
@@ -27,12 +21,12 @@ const icons = {
     EducacionComponent,
     ExperienciaComponent,
     PortafolioComponent,
-    ContactoComponent
+    ContactoComponent,
+    SobreMiComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

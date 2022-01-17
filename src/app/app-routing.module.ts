@@ -5,10 +5,12 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
+import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'sobremi', component: SobreMiComponent},
   {path: 'educacion', component: EducacionComponent},
   {path: 'experiencia', component: ExperienciaComponent},
   {path: 'portafolio', component: PortafolioComponent},
