@@ -1,0 +1,14 @@
+.step {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.step::after {
+    content: "";
+    border-right: 1px solid;
+    opacity: .2;
+    height: 60px;
+    position: absolute;
+    top: 34px;
+}

@@ -1,0 +1,9 @@
+#contenido {
+    margin-left: 270px;
+}
+
+@media screen and (max-width: 600px){
+#contenido {
+    margin-left: 10px;
+}
+}
